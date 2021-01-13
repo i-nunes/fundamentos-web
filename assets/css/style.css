@@ -1,3 +1,7 @@
+html {
+    color: #353b48;
+}
+
 .center {
     text-align: center;
 }
@@ -20,11 +24,11 @@
 
 #menu li a {
     text-decoration: none;
-    color: black;
+    color: #353b48;
 }
 
 #menu li a:hover {
-    color: yellow;
+    color: #fff200;
 }
 
 .p-30 {
