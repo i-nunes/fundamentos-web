@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meu Perfil</title>
+        <link rel="stylesheet" href="assets/css/style.css"
     </head>
     <body>
-
-        <ul>
+        <ul id="menu">
             <li>
                 <a href="index.html">Home</a>
             </li>
@@ -15,32 +15,57 @@
                 <a href="contato.html">Contato</a>
             </li>
         </ul>
-        <h1>Sobre o Iuri</h1>
-       
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-        labore et dolore magna aliqua. A diam sollicitudin tempor id. Justo laoreet sit amet cursus sit 
-        amet dictum sit amet. Placerat vestibulum lectus mauris ultrices eros in cursus. Faucibus in ornare 
-        quam viverra. Ullamcorper dignissim cras tincidunt lobortis feugiat. Vulputate ut pharetra sit amet. 
-        Quis eleifend quam adipiscing vitae proin sagittis nisl. Tempor nec feugiat nisl pretium fusce id velit. 
-        Neque volutpat ac tincidunt vitae semper quis lectus nulla. Eu non diam phasellus vestibulum. Eu feugiat 
-        pretium nibh ipsum consequat nisl vel pretium. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. 
-        Turpis egestas integer eget aliquet nibh praesent tristique magna. Tempor id eu nisl nunc mi ipsum faucibus. 
-        Purus faucibus ornare suspendisse sed nisi. Ultrices sagittis orci a scelerisque. Turpis cursus in hac habitasse 
-        platea dictumst quisque. Suspendisse potenti nullam ac tortor vitae.
-        </p>
 
-        <img src="assets/img/rainforest.jpg" alt="foto teste">
+        <h1 class="center">Sobre o Iuri</h1>
+       <div class="container">
+            <div class="p-30">
+                <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. A diam sollicitudin tempor id. Justo laoreet sit amet cursus sit 
+                amet dictum sit amet. Placerat vestibulum lectus mauris ultrices eros in cursus. Faucibus in ornare 
+                quam viverra. Ullamcorper dignissim cras tincidunt lobortis feugiat. Vulputate ut pharetra sit amet.
+                </p>
+                <p class="justify"> 
+                Quis eleifend quam adipiscing vitae proin sagittis nisl. Tempor nec feugiat nisl pretium fusce id velit. 
+                Neque volutpat ac tincidunt vitae semper quis lectus nulla. Eu non diam phasellus vestibulum. Eu feugiat 
+                pretium nibh ipsum consequat nisl vel pretium. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. 
+                Turpis egestas integer eget aliquet nibh praesent tristique magna. Tempor id eu nisl nunc mi ipsum faucibus. 
+                Purus faucibus ornare suspendisse sed nisi. Ultrices sagittis orci a scelerisque. Turpis cursus in hac habitasse 
+                platea dictumst quisque. Suspendisse potenti nullam ac tortor vitae.
+                </p>
+            </div>
+            <div>
+                <img class="br-50 wh-300 p-30" src="assets/img/rainforest.jpg" alt="foto teste">
+            </div>
+       </div>
+                
 
-        <h2>Um bom video:</h2>
-
-        <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/h6fcK_fRYaI" 
-            frameborder="3" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
+        <h2 class="center">Um bom video:</h2>
+        <div class="container mb-50">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/h6fcK_fRYaI" 
+                frameborder="3" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+       <hr>
+       <footer>
+       <div class="container">
+       <a href="https://www.linkedin.com" target="_blank">
+        <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Facebook logo">
+       </a>
+       <a href="https://www.twitter.com" target="_blank">
+        <img class="tm-social p-30" src="assets/img/twitter.png" alt="Twitter logo">
+       </a>
+       <a href="https://www.instagram.com" target="_blank">
+        <img class="tm-social p-30" src="assets/img/instagram.png" alt="Instagram logo">
+       </a>
+                
+       </div>
+            <p class="center">Todos os direitos reservados: Iuri Nunes &copy</p>
+       </footer>
     </body>
 </html>
